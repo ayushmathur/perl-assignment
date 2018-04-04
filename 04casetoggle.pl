@@ -7,7 +7,7 @@ sub input
 }
 
 sub casetoggle
-{ print "Behold The Cases\n";
+{ print "Behold The power of Cases\n";
     foreach $n(@strarr)
     {
         if($n=~/[A-Z]/)
