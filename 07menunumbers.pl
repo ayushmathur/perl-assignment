@@ -102,7 +102,8 @@ sub menu
     elsif($choice==4)
     {
         print "Sorted list: ";
-        foreach(sort(@usernumbers))
+        @sorted = (sort { $a <=> $b } @usernumbers);
+        foreach(@sorted)
         {
             print "$_ ";
         }
