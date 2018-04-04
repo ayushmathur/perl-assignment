@@ -1,0 +1,6 @@
+This is a normal sequential file.
+This has many lines but most of them are similar to another file.
+this perticular line has a difference. This line is in file1.
+hello
+this line is there in both files.
+bye
