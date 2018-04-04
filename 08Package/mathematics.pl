@@ -95,6 +95,7 @@ sub sorting
     return @sorted;
 }
 
+#Function to find Max out of given all arrays.
 sub findmax 
 {
     my @input=@_;
@@ -113,6 +114,7 @@ sub findmax
     return $max;
 }
 
+#Function to find out Min out of all given arrays.
 sub findmin 
 {
     my @input=@_;
